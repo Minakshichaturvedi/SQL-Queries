@@ -97,3 +97,5 @@ FROM
 customers
 
 --DONE STRING FUNCTION
+
+--Lets Learn Numeric Function
