@@ -67,7 +67,7 @@ customers
 -- STRING EXTRACTION
 --LEFT = Extract specific Number of character from the start
 -- Retrieve the first 2 characters of each first name
-SELECT 
+/*SELECT 
 first_name,
 LEFT( TRIM (first_name ), 2) first_2_char,
 country
@@ -94,8 +94,19 @@ SUBSTRING(TRIM(first_name) ,2, Len(first_name)) subname,
 
 country
 FROM 
-customers
+customers */
 
 --DONE STRING FUNCTION
 
---Lets Learn Numeric Function
+--Lets Learn Numeric Function = ROUND ,ABS
+--ROUND
+SELECT 3.517,
+ROUND(3.517, 2) AS round2,
+ROUND(3.517, 3) AS round3,
+ROUND(3.517, 1) AS round2
+
+--ABS : change to possitive value
+
+SELECT -543,
+ABS(-543),
+ABS(43)
